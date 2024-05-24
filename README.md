@@ -8,14 +8,16 @@ Database name: stealth_solutions
 Please migrate and seed for sample data
 
 php artisan migrate
+
 php artisan db:seed
 
 Account:
 
-Admin
-admin@example.com
-password
+ADMIN
+User: admin@example.com
+Password password
 
-User
-user@example.com
-password
+USER
+User: user@example.com
+Password: password
+
